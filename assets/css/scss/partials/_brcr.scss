@@ -1,0 +1,70 @@
+@use "colors";
+@use "typography";
+
+.container {
+  width: 1348px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#brcr-section {
+  font-family: typography.$information-font;
+}
+
+.section-hl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 50px;
+    color: colors.$primary-black;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 20px;
+    color: colors.$primary-cgray;
+    margin: 0 0 40px 0;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 14px;
+}
+
+.card-info {
+  background-color: colors.$primary-cgray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 34px;
+
+  a {
+    color: colors.$primary-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: colors.$primary-rcred;
+    padding: 4px 6px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    font-family: typography.$information-font;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #b2141a;
+    }
+  }
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
