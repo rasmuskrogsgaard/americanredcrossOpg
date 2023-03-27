@@ -1,0 +1,23 @@
+@use "colors";
+@use "typography";
+@use "logocompliance";
+
+
+.course{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: $sec-dred;
+    h2{
+        color: $sec-dred;
+        font-family: $information-font;
+        font-size: 16px;
+    }
+    
+    button{
+        padding: 50px;
+        border: none;
+        background-color: $sec-dred;
+        color:  $primary-white;
+    }
+    
+}
