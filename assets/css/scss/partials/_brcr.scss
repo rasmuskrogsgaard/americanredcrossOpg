@@ -10,12 +10,11 @@
     h2 {
       font-size: 50px;
       color: colors.$primary-black;
-      margin-bottom: 4px;
     }
     p {
       font-size: 20px;
       color: colors.$primary-cgray;
-      margin: 0 0 40px 0;
+      margin-bottom: 40px;
     }
   }
   .cards {
@@ -31,7 +30,6 @@
   }
   .card-info {
     background-color: colors.$primary-cgray;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
