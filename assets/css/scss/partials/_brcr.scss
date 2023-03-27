@@ -1,12 +1,6 @@
 @use "colors";
 @use "typography";
 
-.container {
-  width: 1348px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 #brcr-section {
   font-family: typography.$information-font;
   .section-hl {
