@@ -4,20 +4,87 @@
 
 
 .course{
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: $sec-dred;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: left;
+    background-image: url(/assets/css/images/firstresponder-hero.jpg);
+    padding: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: typography.$information-font;
+    background-size: cover;
+    height: 50rem;
+    color: colors.$primary-white;
+   
+    h1{
+        font-size: 50px;
+    }
+    
     h2{
-        color: $sec-dred;
-        font-family: $information-font;
-        font-size: 16px;
+        color: colors.$primary-rcred;
+       
+        font-size: 50px;
     }
     
     button{
-        padding: 50px;
+        padding: 20px;
         border: none;
-        background-color: $sec-dred;
-        color:  $primary-white;
+        background-color: colors.$primary-rcred;
+        color:  colors.$primary-white;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
+    
+
+}
+
+.catch-text{
+
+    font-size: 20px;
+}
+
+.backgroundc-container{
+    background-color: rgba(128, 128, 128, 0.671);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.mission{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 150px;
+margin-right: 150px;
+ font-family: typography.$information-font;
+ h1{
+    text-align: center;
+    font-size: 50px;
+
+ }
+ h2{
+    color: colors.$neutral-mgray;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+ }
+ a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+
+ }
+}
+
+.topics-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
     
 }
