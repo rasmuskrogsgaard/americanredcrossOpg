@@ -20,29 +20,35 @@
 #brcr-section {
   font-family: "Akzidenz-Grotesk Next", sans-serif;
 }
-
-.section-hl {
+#brcr-section .section-hl {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.section-hl h2 {
+#brcr-section .section-hl h2 {
   font-size: 50px;
   color: #000000;
   margin-bottom: 4px;
 }
-.section-hl p {
+#brcr-section .section-hl p {
   font-size: 20px;
   color: #6D6E70;
   margin: 0 0 40px 0;
 }
-
-.cards {
+#brcr-section .cards {
   display: flex;
   gap: 14px;
 }
-
-.card-info {
+#brcr-section .cards img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+}
+#brcr-section .card-info {
   background-color: #6D6E70;
   margin: 0;
   display: flex;
@@ -50,7 +56,7 @@
   align-items: center;
   min-height: 34px;
 }
-.card-info a {
+#brcr-section .card-info a {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
@@ -63,16 +69,6 @@
   font-weight: 700;
   cursor: pointer;
 }
-.card-info a:hover {
+#brcr-section .card-info a:hover {
   background-color: #b2141a;
-}
-
-.card img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  display: block;
 }/*# sourceMappingURL=main.css.map */
